@@ -1,6 +1,9 @@
-import dotenv from "dotenv"
+//It imports the dotenv library, which loads environment variables from a .env file into process.env.
+import dotenv from "dotenv" 
 
 dotenv.config({quiet:true})
+// It:Reads .env file,Parses key=value pairs,Loads them into:process.env
+
 
 export const ENV = {
     PORT: process.env.PORT,
